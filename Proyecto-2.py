@@ -155,7 +155,7 @@ headers = True          # Se está leyendo el nombre de las columnas del dataset
 # Se cargan los datos del dataset
 print("Cargando datos...")
 # Se abre y lee el archivo con los datos de PCR de cada region
-with open('PCR.csv.txt', 'r') as file:
+with open('Datos_PCR.csv', 'r') as file:
     reader = csv.reader(file)
     # Se lee cada fila del archivo
     for row in reader:
